@@ -10,7 +10,7 @@ import play.api.mvc.{Action, Controller}
 class PdfController extends Controller with ResponseHelper {
 
   def index = Action { implicit rs =>
-    Ok(Json.prettyPrint(responseHTTP(Success)))
+    Ok(Json prettyPrint responseHTTP(Success))
   }
 
 }
