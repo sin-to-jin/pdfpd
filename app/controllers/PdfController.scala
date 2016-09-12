@@ -17,7 +17,7 @@ class PdfController @Inject()(configuration: Configuration, pdfGenerator: PdfGen
   }
 
   def sample = Action { implicit rs =>
-    Ok(pdfGenerator toBytes(views.html.pdf.sample render("sample", "hogehoge"), configuration.host)).as(configuration.contentType)
+    Ok(pdfGenerator toBytes(views.html.pdf.sample render("sample", "hogehoge"), configuration host)).as(configuration contentType)
   }
 
   def sampleByInFile = Action { implicit rs =>
