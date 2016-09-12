@@ -4,6 +4,7 @@ GET        /                             controllers.Application.index()
 # PDF
 GET        /pdf                          controllers.PdfController.index()
 GET        /pdf/sample                   controllers.PdfController.sample()
+GET        /pdf/sample/file              controllers.PdfController.sampleByInFile()
 
 # Asset
 GET        /assets/*file                 controllers.Assets.versioned(path="/public", file: Asset)
