@@ -1,0 +1,5 @@
+# Application
+GET    /                             controllers.Application.index()
+
+# PDF
+GET    /pdf                          controllers.PdfController.index()
