@@ -1,0 +1,21 @@
+@(title: String)(content: Html)
+
+<!DOCTYPE html>
+<html lang="ja">
+<meta charset="utf-8">
+<head>
+    <title>@title</title>
+    <link href="@routes.Assets.at("stylesheets/main.css")" rel="stylesheet" type="text/css" >
+</head>
+<header></header>
+<body>
+<div class="container">
+    <h3>@title</h3>
+    <p></p>
+    @content
+</div>
+</body>
+<footer>
+    <p>Copyright &copy; 2016 Test inc.</p>
+</footer>
+</html>
