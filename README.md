@@ -7,3 +7,7 @@ PDF Paper Documents
 
 ### Library
 * play2-pdf v1.5.1 -> [official](https://github.com/innoveit/play2-pdf)
+
+### Licence
+* pdfpdは、`Apache License 2.0`を含んでいます
+* pdfpdは、`MIT`で提供しています
