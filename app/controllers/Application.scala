@@ -8,9 +8,7 @@ import play.api.mvc.{Action, Controller}
   * Created by shn on 2016/09/11.
   */
 class Application extends Controller with ResponseHelper {
-
   def index = Action { implicit rs =>
     Ok(Json prettyPrint responseHTTP(Success))
   }
-
 }

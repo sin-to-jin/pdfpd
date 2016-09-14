@@ -1,5 +1,43 @@
 @(title: String, content: String)
 
 @main(title) {
-content
+<table class="table">
+    <thead>
+    <tr>
+        <th>Language</th>
+        <th>Word</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Japanese</td>
+        <td>こんにちは、世界</td>
+    </tr>
+    <tr>
+        <td>English</td>
+        <td>Hello, World</td>
+    </tr>
+    <tr>
+        <td>Chinese</td>
+        <td>你好，世界</td>
+    </tr>
+    <tr>
+        <td>French</td>
+        <td>Bonjour, monde</td>
+    </tr>
+    <tr>
+        <td>German</td>
+        <td>Hallo, Welt</td>
+    </tr>
+    <tr>
+        <td>Italian</td>
+        <td>Ciao, mondo</td>
+    </tr>
+    <tr>
+        <td>Russian</td>
+        <td>Привет, мир</td>
+    </tr>
+    </tbody>
+</table>
+@content
 }
