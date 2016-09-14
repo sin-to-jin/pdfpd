@@ -11,6 +11,9 @@ JA, EN, ZH, DE, FR, IT, RU
 ### Library
 * play2-pdf v1.5.1 -> [official](https://github.com/innoveit/play2-pdf)
 
+### Sample
+![sample.pdf](public/images/sample.pdf, "sample.pdf")
+
 ### Licence
 * pdfpdは、[`Apache License 2.0`](https://www.apache.org/licenses/LICENSE-2.0)を含んでいます
 * pdfpdは、[`IPAフォントライセンスv1.0`](http://ipafont.ipa.go.jp/ipa_font_license_v1-html#jp)を含んでいます
