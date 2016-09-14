@@ -1,6 +1,9 @@
 # PDF PD
 PDF Paper Documents
 
+## Support Languages
+JA, EN, ZH, DE, FR, IT, RU
+
 ## Technology
 * Scala v2.11.8 -> [official](http://www.scala-lang.org/download/)
 * Play2 v2.5.6 -> [official](https://www.playframework.com/download)
