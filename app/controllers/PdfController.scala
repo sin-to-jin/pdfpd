@@ -22,8 +22,6 @@ class PdfController @Inject()(configuration: Configuration, pdfGenerator: PdfGen
   }
 
   def sample = Action { implicit rs =>
-    import collection.JavaConversions._
-    pdfGenerator.loadLocalFonts(List("fonts/ipaexg.ttf", "fonts/ipaexm.ttf").toList)
     Ok(pdfGenerator toBytes(views.html.pdf.sample render("sample", "hogehoge"), configuration host)).as(configuration contentType)
   }
 
