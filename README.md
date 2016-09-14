@@ -6,7 +6,7 @@ JA, EN, ZH, DE, FR, IT, RU
 
 ## Technology
 * Scala v2.11.8 -> [official](http://www.scala-lang.org/download/)
-* Play2 v2.5.7 -> [official](https://www.playframework.com/download)
+* Play Framework v2.5.7 -> [official](https://www.playframework.com/download)
 
 ### Library
 * play2-pdf v1.5.1 -> [official](https://github.com/innoveit/play2-pdf)
