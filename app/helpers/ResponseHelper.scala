@@ -3,6 +3,8 @@ package helpers
 import play.api.libs.json.{JsObject, Json}
 import play.api.http._
 
+import scala.language.postfixOps
+
 /**
   * Created by shn on 2016/09/12.
   */
