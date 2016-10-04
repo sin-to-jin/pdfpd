@@ -25,3 +25,4 @@ https://github.com/ogasawaraShinnosuke/pdfpd/blob/master/public/images/sample.pd
 
 #### Provides
 * [`MIT`](https://github.com/ogasawaraShinnosuke/pdfpd/blob/master/LICENSE)
+
